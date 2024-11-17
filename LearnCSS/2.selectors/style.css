@@ -1,0 +1,27 @@
+/* *{
+    font-family: 'Times New Roman', Times, serif;
+} */
+
+
+body{
+    font-size: 24px;
+}
+
+p:hover{
+    font-family: cursive;
+}
+
+
+#first>p{
+    color:green;
+}
+.purple{
+    color: purple;
+    font-family: monospace;
+}
+.highlight>p{
+    background-color: yellow;
+    font-weight: bolder;
+    font-style: italic;
+    color: brown;
+}
