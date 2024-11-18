@@ -1,0 +1,70 @@
+main{
+    border: 5px solid blue;
+    /* width: 50%; */
+    width: 50vw;
+}
+section{
+    border: 5px dashed gray;
+    /* width: 50%; */
+    width: 50vw;
+}
+.panel{
+    background-color: yellow;
+    color: black;
+    border-radius: 0px;
+
+}
+.message{
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+    padding: -5px;
+}
+.Danger{
+   background-color: red;
+   color:  white;
+   border-radius:0px ;
+   text-align: center;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 20px;
+   border-radius: 1cap;
+   font-size: 25px;
+}
+.red{
+    border: solid;
+    border-color: red;
+    margin:20px;
+    padding: 10px;
+    border-style: ridge;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color:  red;
+}
+.green{
+    border: solid;
+    border-color:green;
+    margin: 20px;
+    padding: 10px;
+    border-style: ridge;
+    color: green;
+   
+}
+.blue{
+
+    border: solid;
+    border-color:blue;
+    margin: 20px;
+    padding: 10px;
+    border-style: ridge;
+    color: blue;
+   
+}
+.yellow{
+    border: solid;
+    border-color:yellow;
+    margin: 20px;
+    padding: 10px;
+    border-style: ridge;
+    color: yellow;
+    
+}

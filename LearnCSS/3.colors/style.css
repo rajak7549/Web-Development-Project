@@ -1,0 +1,26 @@
+body{
+   
+font-size: 24px;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+color: white;
+background-color: #001219;
+}
+article{
+    background-color: #4a4e69;
+    padding: 40px;
+    margin: 40px;
+    border-radius: 20px;
+}
+.paragraph1{
+    color: aqua;
+    background-attachment: fixed;
+    background-position: 20cm;
+    background-size: auto;
+}
+.heading1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    font-style:inherit;
+    font-stretch: ultra-condensed;
+}
