@@ -11,7 +11,8 @@
     <p><h4>Documentation and examples for badges, our small count and labeling component.</h4></p>
 
 
-
+<!-- Badges in Heading  -->
+ <h2>Badges in Heading</h2>
     <h1>Example secondary - 1 <span class="badge text-bg-secondary">New</span></h1>
     <h2>Example primary - 2 <span class="badge text-bg-primary">New</span></h2>
     <h3>Example dark - 3 <span class="badge text-bg-dark">New</span></h3>
@@ -19,14 +20,37 @@
     <h5>Example warning - 5 <span class="badge text-bg-warning">New</span></h5>
     <h6>Example light - 6 <span class="badge text-bg-light text-primary">New</span></h6>
 
+    <!-- Badges in Buttons -->
+<h2>Badges in Buttons</h2>
 
-    <button class="btn btn-primary m-8 p-2.7">Notification <span class="badge text-bg-warning">4</span></button>
-    <button class="btn btn-secondary m-8 p-2.7">Important <span class="badge text-bg-primary">4</span></button>
-    <button class="btn btn-warning m-8 p-2.7">Sapm <span class="badge text-bg-dark">4</span></button>
-    <button class="btn btn-dark m-8 p-2.7">Danger <span class="badge text-bg-warning">4</span></button>
-    <button class="btn btn-danger m-8 p-2.7">Alert <span class="badge text-bg-warning">4</span></button>
-    <button class="btn btn-primary m-8 p-2.7">Messages <span class="badge text-bg-dark">4</span></button>
-    <button class="btn btn-warning m-8 p-2.7">Inbox <span class="badge text-bg-light">4</span></button>
+    <div>
+        <button class="btn btn-primary m-8 p-2.7">Notification <span class="badge text-bg-warning">4</span></button>
+        <button class="btn btn-secondary m-8 p-2.7">Important <span class="badge text-bg-primary">5</span></button>
+        <button class="btn btn-warning m-8 p-2.7">Sapm <span class="badge text-bg-dark">6</span></button>
+        <button class="btn btn-dark m-8 p-2.7">Danger <span class="badge text-bg-warning">10+</span></button>
+        <button class="btn btn-danger m-8 p-2.7">Alert <span class="badge text-bg-warning">100+</span></button>
+        <button class="btn btn-primary m-8 p-2.7">Messages <span class="badge text-bg-dark">56+</span></button>
+        <button class="btn btn-warning m-8 p-2.7">Inbox <span class="badge text-bg-light">9</span></button>
+    </div>
+<!-- bages Position absulate and relative -->
+ <h2>Badge Position</h2>
+
+        <button class="btn btn-primary m-8 p-2.7 ">Notification <span class="badge text-bg-warning position-relative top-0 rounded-pill">4</span></button>
+        <button class="btn btn-secondary m-8 p-2.7">Important <span class="badge text-bg-primary">5</span></button>
+        <button class="btn btn-warning m-8 p-2.7">Sapm <span class="badge text-bg-dark">6</span></button>
+        <button class="btn btn-dark m-8 p-2.7">Danger <span class="badge text-bg-warning">10+</span></button>
+        <button class="btn btn-danger m-8 p-2.7">Alert <span class="badge text-bg-warning">100+</span></button>
+        <button class="btn btn-primary m-8 p-2.7">Messages <span class="badge text-bg-dark">56+</span></button>
+        <button class="btn btn-warning m-8 p-2.7">Inbox <span class="badge text-bg-light">9</span></button>
+
+        <button type="button" class="btn btn-primary position-relative">
+            Inbox
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+              99+
+              <span class="visually-hidden">unread messages</span>
+            </span>
+          </button>
+
 
 
 
